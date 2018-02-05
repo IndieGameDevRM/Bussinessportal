@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:textSize="50sp"
+            android:textColor="#eb4d4b"
+
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="120dp"
+            />
+
+        <EditText
+            android:inputType="textEmailAddress"
+            android:id="@+id/Login_email"
+            android:hint="Enter Username or Email"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="80dp"
+
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            />
+        <EditText
+
+            android:inputType="textPassword"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/Login_password"
+            android:hint="Enter Password"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content" />
+        <TextView
+
+            android:id="@+id/login"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textColor="#7f8fa6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login"
+
+            />
+        <TextView
+
+            android:id="@+id/Back_to_register"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textColor="#7f8fa6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create new?"
+
+            />
+    </LinearLayout>
+</RelativeLayout>

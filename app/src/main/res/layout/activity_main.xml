@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.lenovo.bussinessportal.MainActivity">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="@drawable/low_poly"
+        android:scaleType="center"/>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+
+
+        ><ImageView
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:src="@drawable/registerationimage"
+        android:scaleType="centerCrop"
+       />
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="20dp"
+            android:text="Welcome"
+            android:textColor="@color/colorPrimary"
+            android:textSize="40sp" />
+        <EditText
+            android:inputType="textEmailAddress"
+            android:id="@+id/email"
+            android:hint="Enter Username or Email"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="30dp"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            />
+        <EditText
+            android:inputType="textPassword"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/password"
+            android:hint="Enter Password"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content" />
+        <TextView
+
+            android:id="@+id/login"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textColor="#7f8fa6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register here"
+
+            /><TextView
+            android:id="@+id/Create_new"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="20dp"
+            android:text="already login?"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textColor="#7f8fa6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            /></LinearLayout>
+</RelativeLayout>
